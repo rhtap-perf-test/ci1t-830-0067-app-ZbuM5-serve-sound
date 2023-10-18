@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-uttv
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/stonesoup_perfscale/ci1t-830-0067-tenant/ci1t-830-0067-app/devfile-sample-uttv@sha256:2f2c5017a3fe7f5828fd77ec02e5a5d91c87dfb1230d7576cb6ef7f494796b1b
         name: my-nodejs
         ports:
         - containerPort: 3001
