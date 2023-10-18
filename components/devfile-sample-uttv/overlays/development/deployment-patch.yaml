@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-uttv
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/stonesoup_perfscale/ci1t-830-0067-tenant/ci1t-830-0067-app/devfile-sample-uttv@sha256:2f2c5017a3fe7f5828fd77ec02e5a5d91c87dfb1230d7576cb6ef7f494796b1b
+        name: my-nodejs
+        resources: {}
+status: {}
